@@ -1,0 +1,92 @@
+# Site Settings
+title: "Security Operations Playbooks"
+description: "Incident Response and Security Operations Playbooks"
+remote_theme: just-the-docs/just-the-docs
+search_enabled: true
+color_scheme: light  # Options: light, dark, auto
+
+# Navigation (Sidebar Structure)
+nav_order: 1
+nav_sort: case_insensitive
+
+# Define manual navigation structure
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Response Stages"
+    children:
+      - title: "Preparation"
+        children:
+          - title: "Host"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/host/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/host/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/host/action3"
+          - title: "Network"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/network/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/network/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/network/action3"
+          - title: "Identity"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/identity/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/identity/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/identity/action3"
+          - title: "Email"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/email/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/email/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/email/action3"
+          - title: "File"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/file/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/file/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/file/action3"
+          - title: "General"
+            children:
+              - title: "Action 1"
+                url: "/incident_response/preparation/general/action1"
+              - title: "Action 2"
+                url: "/incident_response/preparation/general/action2"
+              - title: "Action 3"
+                url: "/incident_response/preparation/general/action3"
+      - title: "Identification"
+        url: "/incident_response/identification"
+
+# Sidebar Customization
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/yourusername/yourrepository"
+
+# Footer Settings
+footer_content: "© 2024 Your Name. All rights reserved."
+
+# Markdown Options
+markdown: kramdown
+highlighter: rouge  # Enables code highlighting
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files from the build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
