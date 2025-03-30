@@ -1,11 +1,4 @@
-title: "My Jekyll Site"
-remote_theme: just-the-docs/just-the-docs
+title: "My Documentation Site"
+theme: just-the-docs
 search_enabled: true
-
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Contact"
-    url: "/contact"
-  - title: "About"
-    url: "/about"
+nav_order: 1
