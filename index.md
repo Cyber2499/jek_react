@@ -1,11 +1,9 @@
 ---
-title: Cyber Security Operations - Home Page
+title: Home Page
 nav_order: 1
 ---
 
-# Welcome to the Security Operations Playbooks
+# Welcome to My Site
+This is a simple documentation site using GitHub Pages and Just the Docs.
 
-This site provides structured documentation for **incident response procedures**.
-
-## 🔍 Get Started
-Select a topic from the sidebar to begin.
+[About Us](about.md)
